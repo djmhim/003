@@ -15,7 +15,7 @@ function Footer() {
   return (
     <>
         <div>Numbers : {nums}</div>
-        <button className='bg-cyan-800 text-white px-5 py-1 rounded-full' onClick={add}>Add</button>
+        <button className='bg-red-800 text-white px-5 py-1 rounded-full' onClick={add}>Add</button>
         <button className='bg-cyan-800 text-white px-5 py-1 rounded-full' onClick={min}>Min</button>
     </>
   )
